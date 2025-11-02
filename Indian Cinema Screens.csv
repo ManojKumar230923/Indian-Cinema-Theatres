@@ -1,0 +1,7 @@
+Vlookup,,
+,,"Finds Mumbai in column A and returns the value from the 3rd column (e.g., Number of Screens)."
+,150,"=VLOOKUP('Indian Cinema Screens'!A38,'Indian Cinema Screens'!1:1048576,3,FALSE)"
+,,
+Index Match,,
+,,Looks up Mumbai in column A and returns its corresponding value from column C.
+,150,"=INDEX('Indian Cinema Screens'!C:C,MATCH('Indian Cinema Screens'!A38,'Indian Cinema Screens'!A:A,0))"
